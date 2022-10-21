@@ -28,10 +28,10 @@
 
     modal: function () {
       var self = this;
-      var modalBox = $(".barna_modalbox");
+      var modalBox = $(".nelsondjcr_modalbox");
       var item = $(".modal_item");
       var closePopup = modalBox.find(".close");
-      var prevNext = modalBox.find(".barna_prevnext");
+      var prevNext = modalBox.find(".nelsondjcr_prevnext");
       var fixedTitle = modalBox.find(".fixed_title");
 
       item.on("click", function () {
@@ -110,7 +110,7 @@
             );
           }, 500);
 
-          $(".barna_modalbox .modal_content")
+          $(".nelsondjcr_modalbox .modal_content")
             .stop()
             .animate({ scrollTop: 0 }, 500, "swing");
 
@@ -122,13 +122,13 @@
     },
 
     hamburger: function () {
-      $(".barna__mobile_header .hamb")
+      $(".nelsondjcr__mobile_header .hamb")
         .off()
         .on("click", function () {
           var element = $(this);
           var hamburger = element.find(".hamburger");
           var bottom = element
-            .closest(".barna__mobile_header")
+            .closest(".nelsondjcr__mobile_header")
             .find(".header_bottom");
           if (hamburger.hasClass("is-active")) {
             hamburger.removeClass("is-active");
@@ -142,7 +142,7 @@
     },
 
     sectionTitleAnimation: function () {
-      var menu = $(".barna__section_title");
+      var menu = $(".nelsondjcr__section_title");
       var offset = 0;
       menu.each(function () {
         var element = $(this);
@@ -186,7 +186,7 @@
     },
 
     inputFocus: function () {
-      $(".barna__contact .item").each(function () {
+      $(".nelsondjcr__contact .item").each(function () {
         var e = $(this);
         var padding = 20;
         var input = e.find("input, textarea");
@@ -211,7 +211,7 @@
 
     contactForm: function () {
       $("#send_message").on("click", function () {
-        var form = $(".barna__contact");
+        var form = $(".nelsondjcr__contact");
         var name = form.find(".name").val();
         var subject = form.find(".subject").val();
         var email = form.find(".email").val();
@@ -262,7 +262,7 @@
     },
 
     blog: function () {
-      $(".barna__blog .owl-carousel").each(function () {
+      $(".nelsondjcr__blog .owl-carousel").each(function () {
         var el = $(this);
         el.owlCarousel({
           autoplay: true,
@@ -289,9 +289,9 @@
     },
 
     testimonials: function () {
-      $(".barna__testimonials .owl-carousel").each(function () {
+      $(".nelsondjcr__testimonials .owl-carousel").each(function () {
         var el = $(this);
-        var parent = el.closest(".barna__testimonials");
+        var parent = el.closest(".nelsondjcr__testimonials");
         var items = el.find(".item");
         var count = items.length;
         var dots = parent.find(".my__dots");
@@ -372,7 +372,7 @@
     },
 
     counter: function () {
-      $(".barna__counter").each(function () {
+      $(".nelsondjcr__counter").each(function () {
         var el = $(this);
         el.waypoint({
           handler: function () {
@@ -394,20 +394,20 @@
 
     portfolioFilter: function () {
       if ($().isotope) {
-        $(".barna__portfolio .list ul").isotope({
-          filter: $(".barna__portfolio .filter .current").attr("data-filter"),
+        $(".nelsondjcr__portfolio .list ul").isotope({
+          filter: $(".nelsondjcr__portfolio .filter .current").attr("data-filter"),
           animationOptions: {
             duration: 750,
             easing: "linear",
             queue: false,
           },
         });
-        $(".barna__portfolio .filter a")
+        $(".nelsondjcr__portfolio .filter a")
           .off()
           .on("click", function () {
             var element = $(this);
             var selector = element.attr("data-filter");
-            var list = element.closest(".barna__portfolio").find(".list ul");
+            var list = element.closest(".nelsondjcr__portfolio").find(".list ul");
             list.isotope({
               filter: selector,
               animationOptions: {
@@ -440,7 +440,7 @@
     },
 
     progress: function () {
-      $(".barna__progress").each(function () {
+      $(".nelsondjcr__progress").each(function () {
         var pWrap = $(this);
         pWrap.waypoint({
           handler: function () {
@@ -475,9 +475,9 @@
     },
 
     mainSlider: function () {
-      $(".barna__hero .owl-carousel").each(function () {
+      $(".nelsondjcr__hero .owl-carousel").each(function () {
         var el = $(this);
-        var parent = el.closest(".barna__hero");
+        var parent = el.closest(".nelsondjcr__hero");
         el.owlCarousel({
           autoplay: true,
           autoplayTimeout: 7000,
@@ -576,7 +576,7 @@
   $(window).on("scroll", function () {});
 })(jQuery);
 
-jQuery(".nav ul,.barna__mobile_header .header_bottom ul").onePageNav();
+jQuery(".nav ul,.nelsondjcr__mobile_header .header_bottom ul").onePageNav();
 
 // fixed top spacing issue
 $(".header_bottom ul li a").click(function () {

@@ -239,13 +239,13 @@ a:focus {
 /*------------------------------------------------------------------*/
 /*	02) Main
 /*------------------------------------------------------------------*/
-.barna__wrapper,
-.barna__wrapper *:before,
-.barna__wrapper *:after,
-.barna__wrapper * {
+.nelsondjcr__wrapper,
+.nelsondjcr__wrapper *:before,
+.nelsondjcr__wrapper *:after,
+.nelsondjcr__wrapper * {
   box-sizing: border-box;
 }
-.barna__wrapper {
+.nelsondjcr__wrapper {
   width: 100%;
   float: left;
   clear: both;
@@ -253,12 +253,12 @@ a:focus {
   position: relative;
   overflow: hidden;
 }
-.barna__wrapper:after {
+.nelsondjcr__wrapper:after {
   clear: both;
   display: table;
   content: "";
 }
-.barna__wrapper .main {
+.nelsondjcr__wrapper .main {
   width: 100%;
   float: left;
   clear: both;
@@ -358,13 +358,13 @@ a:focus {
 /*------------------------------------------------------------------*/
 /*	04) Hero Header (element)
 /*------------------------------------------------------------------*/
-.barna__hero {
+.nelsondjcr__hero {
   width: 100%;
   float: left;
   position: relative;
   clear: both;
 }
-.barna__hero .item {
+.nelsondjcr__hero .item {
   min-height: 100vh;
   padding: 170px 0 270px;
   display: flex;
@@ -372,7 +372,7 @@ a:focus {
   justify-content: center;
   position: relative;
 }
-.barna__hero .bg {
+.nelsondjcr__hero .bg {
   position: absolute;
   z-index: 1;
   top: 0;
@@ -381,7 +381,7 @@ a:focus {
   bottom: 0;
   overflow: hidden;
 }
-.barna__hero .bg1 {
+.nelsondjcr__hero .bg1 {
   top: 0;
   left: 0;
   bottom: 0;
@@ -393,7 +393,7 @@ a:focus {
   transition: all 1s 1s ease;
   background-color: #000;
 }
-.barna__hero .bg2 {
+.nelsondjcr__hero .bg2 {
   top: 0;
   right: 0;
   bottom: 0;
@@ -405,32 +405,32 @@ a:focus {
   transition: all 1s 1s ease;
   background-color: #000;
 }
-.barna__hero .bg1 {
+.nelsondjcr__hero .bg1 {
   width: 31%;
   left: -31%;
 }
-.barna__hero .bg2 {
+.nelsondjcr__hero .bg2 {
   width: 69%;
   right: -69%;
 }
-.barna__hero .active .bg1 {
+.nelsondjcr__hero .active .bg1 {
   left: 0;
 }
-.barna__hero .active .bg2 {
+.nelsondjcr__hero .active .bg2 {
   right: 0;
 }
-.barna__hero .item p {
+.nelsondjcr__hero .item p {
   margin: 0;
   padding: 0;
   text-transform: uppercase;
   margin-bottom: 32px;
   letter-spacing: 2px;
 }
-.barna__hero .item p span {
+.nelsondjcr__hero .item p span {
   position: relative;
   padding-bottom: 1px;
 }
-.barna__hero .item p span:after {
+.nelsondjcr__hero .item p span:after {
   left: 6px;
   bottom: -1px;
   content: "";
@@ -441,7 +441,7 @@ a:focus {
   margin-right: 6px;
   transition: all 1s 1s ease;
 }
-.barna__hero .item h3 {
+.nelsondjcr__hero .item h3 {
   margin: 0;
   padding: 0;
   font-size: 75px;
@@ -450,7 +450,7 @@ a:focus {
   font-family: var(--bff);
   margin-bottom: 30px;
 }
-.barna__hero .item h5 {
+.nelsondjcr__hero .item h5 {
   margin: 0;
   padding: 0;
   font-size: 50px;
@@ -459,11 +459,11 @@ a:focus {
   font-family: var(--bff);
   color: var(--pc);
 }
-.barna__hero .title_holder {
+.nelsondjcr__hero .title_holder {
   position: relative;
   padding-bottom: 24px;
 }
-.barna__hero .title_holder:after {
+.nelsondjcr__hero .title_holder:after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -471,7 +471,7 @@ a:focus {
   height: 1px;
   background-color: #e4e4e4;
 }
-.barna__hero .divider {
+.nelsondjcr__hero .divider {
   display: block;
   position: absolute;
   width: 22px;
@@ -483,7 +483,7 @@ a:focus {
   border-radius: 22px;
   overflow: hidden;
 }
-.barna__hero .divider:after {
+.nelsondjcr__hero .divider:after {
   content: "";
   position: absolute;
   width: 2px;
@@ -495,10 +495,10 @@ a:focus {
   background-color: var(--pc);
   transition: all 1s 1s ease;
 }
-.barna__hero .active .divider:after {
+.nelsondjcr__hero .active .divider:after {
   transform: translateY(0%);
 }
-.barna__hero .my__nav a {
+.nelsondjcr__hero .my__nav a {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -512,11 +512,11 @@ a:focus {
   color: #b3b3b3;
   transition: all 0.3s;
 }
-.barna__hero .my__nav a:hover {
+.nelsondjcr__hero .my__nav a:hover {
   background-color: #444;
 }
 
-.barna__hero .my__nav .svg {
+.nelsondjcr__hero .my__nav .svg {
   width: 10px;
   height: 10px;
   position: absolute;
@@ -524,16 +524,16 @@ a:focus {
   left: 50%;
   margin: -5px 0 0 -5px;
 }
-.barna__hero .my__nav .prev {
+.nelsondjcr__hero .my__nav .prev {
   left: 40px;
 }
-.barna__hero .my__nav .next {
+.nelsondjcr__hero .my__nav .next {
   right: 40px;
 }
-.barna__hero .my__nav .next .svg {
+.nelsondjcr__hero .my__nav .next .svg {
   transform: rotate(180deg);
 }
-.barna__hero .active .item p span:after {
+.nelsondjcr__hero .active .item p span:after {
   right: -8px;
   margin-right: 0;
 }
@@ -549,18 +549,18 @@ a:focus {
 /*------------------------------------------------------------------*/
 /*	06) Partners (element)
 /*------------------------------------------------------------------*/
-.barna__partners {
+.nelsondjcr__partners {
   width: 100%;
   position: relative;
   transform: translateY(-50%);
 }
-.barna__partners .in {
+.nelsondjcr__partners .in {
   width: 100%;
   background-image: url(../img/partners/bg.png);
   background-size: cover;
   background-repeat: repeat;
 }
-.barna__partners ul {
+.nelsondjcr__partners ul {
   margin: 0;
   padding: 55px 45px;
   list-style-type: none;
@@ -569,30 +569,30 @@ a:focus {
   flex-direction: row;
   align-items: center;
 }
-.barna__partners li {
+.nelsondjcr__partners li {
   margin: 0;
   width: 25%;
   padding: 15px;
 }
-.barna__partners a {
+.nelsondjcr__partners a {
   color: #e4e4e4;
   text-decoration: none;
 }
 /*------------------------------------------------------------------*/
 /*	07) Main Title (element)
 /*------------------------------------------------------------------*/
-.barna__title p {
+.nelsondjcr__title p {
   margin: 0;
   padding: 0;
   text-transform: uppercase;
   margin-bottom: 11px;
   letter-spacing: 2px;
 }
-.barna__title p span {
+.nelsondjcr__title p span {
   position: relative;
   padding-bottom: 1px;
 }
-.barna__title p span:after {
+.nelsondjcr__title p span:after {
   left: 6px;
   bottom: -1px;
   content: "";
@@ -601,7 +601,7 @@ a:focus {
   background-color: var(--pc);
   right: -8px;
 }
-.barna__title h3 {
+.nelsondjcr__title h3 {
   margin: 0;
   padding: 0;
   font-size: 40px;
@@ -611,7 +611,7 @@ a:focus {
   position: relative;
   padding-left: 15px;
 }
-.barna__title h3:after {
+.nelsondjcr__title h3:after {
   width: 10px;
   height: 10px;
   position: absolute;
@@ -621,13 +621,13 @@ a:focus {
   border-radius: 50%;
   background-color: var(--pc);
 }
-.barna__title.center {
+.nelsondjcr__title.center {
   text-align: center;
 }
-.barna__title.center h3 {
+.nelsondjcr__title.center h3 {
   padding-bottom: 17px;
 }
-.barna__title.center h3:after {
+.nelsondjcr__title.center h3:after {
   left: 50%;
   margin-left: -5px;
   bottom: 0;
@@ -636,16 +636,16 @@ a:focus {
 /*------------------------------------------------------------------*/
 /*	08) About (element)
 /*------------------------------------------------------------------*/
-.barna__about .in {
+.nelsondjcr__about .in {
   display: flex;
   align-items: flex-start;
 }
-.barna__about .left {
+.nelsondjcr__about .left {
   width: 38%;
   position: relative;
   padding: 30px 30px 0 0;
 }
-.barna__about .left:after {
+.nelsondjcr__about .left:after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -655,27 +655,27 @@ a:focus {
   left: 30px;
   background-color: #292929;
 }
-.barna__about .right {
+.nelsondjcr__about .right {
   width: 62%;
   padding-left: 60px;
 }
-.barna__about .barna__title {
+.nelsondjcr__about .nelsondjcr__title {
   margin-bottom: 12px;
 }
-.barna__about .desc p {
+.nelsondjcr__about .desc p {
   margin: 0;
   padding: 0;
   margin-bottom: 16px;
 }
-.barna__about .desc p:last-child {
+.nelsondjcr__about .desc p:last-child {
   margin-bottom: 0;
 }
-.barna__about .desc p a {
+.nelsondjcr__about .desc p a {
   color: var(--pc);
   text-decoration: none;
   position: relative;
 }
-.barna__about .desc p a:after {
+.nelsondjcr__about .desc p a:after {
   left: 6px;
   bottom: -1px;
   content: "";
@@ -686,37 +686,37 @@ a:focus {
   margin-right: 6px;
   transition: all 0.5s ease;
 }
-.barna__about .desc p a:hover:after {
+.nelsondjcr__about .desc p a:hover:after {
   right: -8px;
   margin-right: 0;
 }
-.barna__about .desc {
+.nelsondjcr__about .desc {
   margin-bottom: 24px;
 }
-.barna__about .list {
+.nelsondjcr__about .list {
   margin-bottom: 28px;
 }
-.barna__about .list ul {
+.nelsondjcr__about .list ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
   margin-left: -20px;
 }
-.barna__about .list ul:after {
+.nelsondjcr__about .list ul:after {
   content: "";
   display: table;
   clear: both;
 }
-.barna__about .list li {
+.nelsondjcr__about .list li {
   width: 50%;
   float: left;
   padding-left: 20px;
 }
-.barna__about .list .item {
+.nelsondjcr__about .list .item {
   padding-left: 22px;
   position: relative;
 }
-.barna__about .list .svg {
+.nelsondjcr__about .list .svg {
   width: 14px;
   height: 16px;
   color: var(--pc);
@@ -725,18 +725,18 @@ a:focus {
   left: 0;
   top: 7px;
 }
-.barna__about .list span {
+.nelsondjcr__about .list span {
   color: var(--pc);
   margin-right: 7px;
 }
-.barna__about .button {
+.nelsondjcr__about .button {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
   display: flex;
 }
-.barna__about .button a {
+.nelsondjcr__about .button a {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -755,18 +755,18 @@ a:focus {
   letter-spacing: 2px;
   outline: none;
 }
-.barna__about .button a .text {
+.nelsondjcr__about .button a .text {
   color: var(--pc);
   display: block;
   position: relative;
   overflow: hidden;
   margin-left: 10px;
 }
-.barna__about .button a .text span {
+.nelsondjcr__about .button a .text span {
   display: block;
   transition: all 0.3s ease;
 }
-.barna__about .button a .text span:nth-child(2) {
+.nelsondjcr__about .button a .text span:nth-child(2) {
   position: absolute;
   transform: translateY(102%);
   left: 0;
@@ -774,13 +774,13 @@ a:focus {
   top: 0;
   bottom: 0;
 }
-.barna__about .button a:hover {
+.nelsondjcr__about .button a:hover {
   color: var(--pc);
 }
-.barna__about .button a:hover .text span:nth-child(1) {
+.nelsondjcr__about .button a:hover .text span:nth-child(1) {
   transform: translateY(-102%);
 }
-.barna__about .button a:hover .text span:nth-child(2) {
+.nelsondjcr__about .button a:hover .text span:nth-child(2) {
   transform: translateY(0%);
   color: #e4e4e4;
 }
@@ -842,7 +842,7 @@ a:focus {
 /*------------------------------------------------------------------*/
 /*	10) Progress Bar (element)
 /*------------------------------------------------------------------*/
-.barna__progress .progress_item {
+.nelsondjcr__progress .progress_item {
   width: 100%;
   float: left;
   clear: both;
@@ -851,15 +851,15 @@ a:focus {
   padding-bottom: 9px;
   overflow: hidden;
 }
-.barna__progress .progress_item:last-child {
+.nelsondjcr__progress .progress_item:last-child {
   margin-bottom: 0;
 }
-.barna__progress .progress_top {
+.nelsondjcr__progress .progress_top {
   width: 100%;
   position: relative;
   margin-bottom: 19px;
 }
-.barna__progress .progress_percent {
+.nelsondjcr__progress .progress_percent {
   position: absolute;
   z-index: 2;
   line-height: 40px;
@@ -872,7 +872,7 @@ a:focus {
   color: #fff;
   transition: all 3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-.barna__progress .progress_title {
+.nelsondjcr__progress .progress_title {
   margin: 0;
   font-size: 26px;
   font-weight: 400;
@@ -880,14 +880,14 @@ a:focus {
   z-index: 2;
   line-height: 40px;
 }
-.barna__progress .progress_bgwrap {
+.nelsondjcr__progress .progress_bgwrap {
   width: 100%;
   position: relative;
   height: 8px;
   background-color: #292929;
   border-radius: 16px;
 }
-.barna__progress .progress_bg {
+.nelsondjcr__progress .progress_bg {
   width: 0;
   position: absolute;
   z-index: 1;
@@ -895,7 +895,7 @@ a:focus {
   left: 0;
   bottom: -1px;
 }
-.barna__progress .progress_bg:after {
+.nelsondjcr__progress .progress_bg:after {
   content: "";
   position: absolute;
   top: 0;
@@ -905,7 +905,7 @@ a:focus {
   background-color: var(--pc);
   border-radius: 16px;
 }
-.barna__progress .progress_bg span {
+.nelsondjcr__progress .progress_bg span {
   width: 10px;
   height: 10px;
   display: block;
@@ -916,7 +916,7 @@ a:focus {
   border-radius: 50%;
   right: 110%;
 }
-.barna__progress .progress_bg span:after {
+.nelsondjcr__progress .progress_bg span:after {
   content: "";
   position: absolute;
   right: -4px;
@@ -928,13 +928,13 @@ a:focus {
   transform: translateY(-50%);
   border-radius: 50%;
 }
-.barna__progress .open .progress_bg span {
+.nelsondjcr__progress .open .progress_bg span {
   right: 4px;
   -webkit-animation: progress_animation2 3s cubic-bezier(0.165, 0.84, 0.44, 1); /* Safari 4+ */
   -moz-animation: progress_animation2 3s cubic-bezier(0.165, 0.84, 0.44, 1); /* Fx 5+ */
   animation: progress_animation2 3s cubic-bezier(0.165, 0.84, 0.44, 1); /* IE 10+ */
 }
-.barna__progress .open .progress_bg:after {
+.nelsondjcr__progress .open .progress_bg:after {
   right: 25px;
   -webkit-animation: progress_animation 3s cubic-bezier(0.165, 0.84, 0.44, 1); /* Safari 4+ */
   -moz-animation: progress_animation 3s cubic-bezier(0.165, 0.84, 0.44, 1); /* Fx 5+ */
@@ -999,49 +999,49 @@ a:focus {
 /*------------------------------------------------------------------*/
 /*	12) Resume (element)
 /*------------------------------------------------------------------*/
-.barna__resume_list .resume {
+.nelsondjcr__resume_list .resume {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-.barna__resume_list .resume_item {
+.nelsondjcr__resume_list .resume_item {
   margin: 0;
   padding: 48px 0 13px;
   border-bottom: 1px solid #292929;
 }
-.barna__resume_list .resume_item:first-child {
+.nelsondjcr__resume_list .resume_item:first-child {
   padding-top: 42px;
 }
-.barna__resume_list .resume_item:last-child {
+.nelsondjcr__resume_list .resume_item:last-child {
   border-bottom: none;
 }
-.barna__resume_list .item_wrapper {
+.nelsondjcr__resume_list .item_wrapper {
   margin-left: -50px;
   display: flex;
 }
-.barna__resume_list .left {
+.nelsondjcr__resume_list .left {
   width: 25%;
   padding-left: 50px;
   display: flex;
   color: #e4e4e4;
 }
-.barna__resume_list .left .svg {
+.nelsondjcr__resume_list .left .svg {
   width: 40px;
   height: 40px;
   margin-right: 10px;
 }
-.barna__resume_list .left h3 {
+.nelsondjcr__resume_list .left h3 {
   margin: 0;
   padding: 0;
   font-size: 30px;
   line-height: 40px;
   font-weight: 600;
 }
-.barna__resume_list .right {
+.nelsondjcr__resume_list .right {
   width: 75%;
   padding-left: 50px;
 }
-.barna__resume_list .right ul {
+.nelsondjcr__resume_list .right ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -1049,21 +1049,21 @@ a:focus {
   display: flex;
   flex-wrap: wrap;
 }
-.barna__resume_list .right li {
+.nelsondjcr__resume_list .right li {
   margin: 0;
   padding: 0;
   padding-left: 50px;
   width: 50%;
   margin-bottom: 28px;
 }
-.barna__resume_list .item .svg {
+.nelsondjcr__resume_list .item .svg {
   width: 14px;
   height: 14px;
   position: absolute;
   left: 0;
   top: 8px;
 }
-.barna__resume_list .item p {
+.nelsondjcr__resume_list .item p {
   margin: 0;
   padding: 0;
   padding-left: 24px;
@@ -1072,14 +1072,14 @@ a:focus {
   position: relative;
   margin-bottom: 12px;
 }
-.barna__resume_list .item h3 {
+.nelsondjcr__resume_list .item h3 {
   margin: 0;
   padding: 0;
   font-size: 26px;
   line-height: 40px;
   font-weight: 500;
 }
-.barna__resume_list .item h5 {
+.nelsondjcr__resume_list .item h5 {
   margin: 0;
   padding: 0;
   font-size: 18px;
@@ -1097,13 +1097,13 @@ a:focus {
   background-repeat: no-repeat;
   background-position: center;
 }
-#services .barna__title {
+#services .nelsondjcr__title {
   margin-bottom: 50px;
 }
 /*------------------------------------------------------------------*/
 /*	14) Services (element)
 /*------------------------------------------------------------------*/
-.barna__services ul {
+.nelsondjcr__services ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -1115,7 +1115,7 @@ a:focus {
   display: flex;
   flex-wrap: wrap;
 }
-.barna__services li {
+.nelsondjcr__services li {
   margin: 0;
   padding: 0;
   width: 33.3333%;
@@ -1123,7 +1123,7 @@ a:focus {
   margin-bottom: 50px;
   text-align: center;
 }
-.barna__services .item {
+.nelsondjcr__services .item {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -1133,7 +1133,7 @@ a:focus {
   -ms-align-items: center;
   align-items: center;
 }
-.barna__services .icon {
+.nelsondjcr__services .icon {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -1148,12 +1148,12 @@ a:focus {
   background-color: #292929;
   margin-bottom: 35px;
 }
-.barna__services .icon .svg {
+.nelsondjcr__services .icon .svg {
   width: 45px;
   height: 45px;
   color: #e4e4e4;
 }
-.barna__services h3 {
+.nelsondjcr__services h3 {
   margin: 0;
   padding: 0 20px;
   font-size: 30px;
@@ -1163,7 +1163,7 @@ a:focus {
   position: relative;
   width: 100%;
 }
-.barna__services h3 .svg {
+.nelsondjcr__services h3 .svg {
   position: absolute;
   z-index: -1;
   color: var(--pc);
@@ -1175,10 +1175,10 @@ a:focus {
   transition: all 0.3s ease;
   transform: translate(-50%, -50%);
 }
-.barna__services .item:hover h3 .svg {
+.nelsondjcr__services .item:hover h3 .svg {
   opacity: 1;
 }
-.barna__services p {
+.nelsondjcr__services p {
   margin: 0;
   padding: 0;
   font-family: var(--hff);
@@ -1192,16 +1192,16 @@ a:focus {
   background-repeat: no-repeat;
   background-position: center;
 }
-#portfolio .barna__title {
+#portfolio .nelsondjcr__title {
   margin-bottom: 37px;
 }
 /*------------------------------------------------------------------*/
 /*	16) Portfolio (element)
 /*------------------------------------------------------------------*/
-.barna__portfolio .filter {
+.nelsondjcr__portfolio .filter {
   margin-bottom: 38px;
 }
-.barna__portfolio .filter ul {
+.nelsondjcr__portfolio .filter ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -1215,11 +1215,11 @@ a:focus {
   justify-content: center;
   align-items: center;
 }
-.barna__portfolio .filter li {
+.nelsondjcr__portfolio .filter li {
   padding-left: 50px;
   margin: 2px 0;
 }
-.barna__portfolio .filter a {
+.nelsondjcr__portfolio .filter a {
   text-decoration: none;
   font-size: 14px;
   text-transform: uppercase;
@@ -1228,7 +1228,7 @@ a:focus {
   color: #e4e4e4;
   position: relative;
 }
-.barna__portfolio .filter a:after {
+.nelsondjcr__portfolio .filter a:after {
   content: "";
   position: absolute;
   left: -6px;
@@ -1239,11 +1239,11 @@ a:focus {
   background-color: var(--pc);
   transition: all 0.3s ease;
 }
-.barna__portfolio .filter a.current:after {
+.nelsondjcr__portfolio .filter a.current:after {
   right: 0;
   margin-right: 0;
 }
-.barna__portfolio .list ul {
+.nelsondjcr__portfolio .list ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -1259,22 +1259,22 @@ a:focus {
   overflow: hidden;
   transition: height 500ms ease;
 }
-.barna__portfolio .list li {
+.nelsondjcr__portfolio .list li {
   width: 33.3333%;
   padding-left: 30px;
   margin: 0 0 30px 0;
 }
-.barna__portfolio .item {
+.nelsondjcr__portfolio .item {
   width: 100%;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
 }
-.barna__portfolio .list img {
+.nelsondjcr__portfolio .list img {
   opacity: 0;
   min-width: 100%;
 }
-.barna__portfolio .main_image {
+.nelsondjcr__portfolio .main_image {
   top: 0;
   left: 0;
   right: 0;
@@ -1285,7 +1285,7 @@ a:focus {
   background-position: center center;
   background-repeat: no-repeat;
 }
-.barna__portfolio .title_holder {
+.nelsondjcr__portfolio .title_holder {
   position: absolute;
   top: 0;
   left: 0;
@@ -1300,7 +1300,7 @@ a:focus {
   transition: all 0.3s ease;
   z-index: 5;
 }
-.barna__portfolio .title_holder:after {
+.nelsondjcr__portfolio .title_holder:after {
   content: "";
   position: absolute;
   top: 0;
@@ -1310,11 +1310,11 @@ a:focus {
   background-color: var(--pc);
   opacity: 0.49;
 }
-.barna__portfolio .title_holder * {
+.nelsondjcr__portfolio .title_holder * {
   position: relative;
   z-index: 2;
 }
-.barna__portfolio .title_holder h3 {
+.nelsondjcr__portfolio .title_holder h3 {
   margin: 0;
   padding: 0;
   font-size: 14px;
@@ -1322,7 +1322,7 @@ a:focus {
   text-transform: uppercase;
   color: #e4e4e4;
 }
-.barna__portfolio .title_holder .icon {
+.nelsondjcr__portfolio .title_holder .icon {
   width: 43px;
   height: 43px;
   border-radius: 50%;
@@ -1333,15 +1333,15 @@ a:focus {
   justify-content: center;
   margin-bottom: 18px;
 }
-.barna__portfolio .title_holder .icon .svg {
+.nelsondjcr__portfolio .title_holder .icon .svg {
   width: 18px;
   height: 18px;
   display: block;
 }
-.barna__portfolio .item:hover .title_holder {
+.nelsondjcr__portfolio .item:hover .title_holder {
   opacity: 1;
 }
-.barna__portfolio .zoom {
+.nelsondjcr__portfolio .zoom {
   z-index: 10;
   position: absolute;
   top: 0;
@@ -1359,7 +1359,7 @@ a:focus {
 /*------------------------------------------------------------------*/
 /*	18) Counter (element)
 /*------------------------------------------------------------------*/
-.barna__counters ul {
+.nelsondjcr__counters ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -1373,17 +1373,17 @@ a:focus {
   align-items: center;
   position: relative;
 }
-.barna__counters li {
+.nelsondjcr__counters li {
   margin: 0;
   padding: 10px 0 10px 50px;
   width: 33.3333%;
 }
-.barna__counters .item {
+.nelsondjcr__counters .item {
   width: 100%;
   position: relative;
   padding-left: 60px;
 }
-.barna__counters .icon {
+.nelsondjcr__counters .icon {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -1404,19 +1404,19 @@ a:focus {
   top: 5px;
   left: 0;
 }
-.barna__counters .svg {
+.nelsondjcr__counters .svg {
   width: 50px;
   height: 50px;
   display: block;
 }
-.barna__counters h3 {
+.nelsondjcr__counters h3 {
   margin: 0;
   padding: 0;
   font-size: 40px;
   line-height: 50px;
   letter-spacing: 0.25px;
 }
-.barna__counters p {
+.nelsondjcr__counters p {
   color: #b3b3b3;
   margin: 0;
   padding: 0;
@@ -1430,16 +1430,16 @@ a:focus {
   background-position: center center;
   background-repeat: no-repeat;
 }
-#testimonials .barna__title {
+#testimonials .nelsondjcr__title {
   margin-bottom: 50px;
 }
 /*------------------------------------------------------------------*/
 /*	20) Testimonials (element)
 /*------------------------------------------------------------------*/
-.barna__testimonials {
+.nelsondjcr__testimonials {
   position: relative;
 }
-.barna__testimonials .item {
+.nelsondjcr__testimonials .item {
   text-align: center;
   display: -webkit-flex;
   display: -moz-flex;
@@ -1455,8 +1455,8 @@ a:focus {
   align-items: center;
   justify-content: center;
 }
-.barna__testimonials .my__dots .right,
-.barna__testimonials .my__dots .left {
+.nelsondjcr__testimonials .my__dots .right,
+.nelsondjcr__testimonials .my__dots .left {
   position: absolute;
   left: 0;
   top: 50%;
@@ -1479,12 +1479,12 @@ a:focus {
   overflow: hidden;
   margin-left: -7px;
 }
-.barna__testimonials .my__dots .right {
+.nelsondjcr__testimonials .my__dots .right {
   left: auto;
   right: 0;
   justify-content: flex-end;
 }
-.barna__testimonials .my__dots span {
+.nelsondjcr__testimonials .my__dots span {
   width: 10px;
   height: 10px;
   background-color: #b3b3b3;
@@ -1493,12 +1493,12 @@ a:focus {
   display: block;
   transition: all 0.3s ease;
 }
-.barna__testimonials .my__dots .active {
+.nelsondjcr__testimonials .my__dots .active {
   width: 15px;
   height: 15px;
   background-color: var(--pc);
 }
-.barna__testimonials .img_holder {
+.nelsondjcr__testimonials .img_holder {
   width: 90px;
   height: 90px;
   border-radius: 50%;
@@ -1514,24 +1514,24 @@ a:focus {
   background-position: center center;
   background-repeat: no-repeat;
 }
-.barna__testimonials p {
+.nelsondjcr__testimonials p {
   margin: 0;
   padding: 0 15%;
   margin-bottom: 23px;
 }
 @media (max-width: 767px) {
-  .barna__testimonials p {
+  .nelsondjcr__testimonials p {
     padding: 0;
   }
 }
-.barna__testimonials h3 {
+.nelsondjcr__testimonials h3 {
   margin: 0;
   padding: 0;
   font-size: 16px;
   margin-bottom: 12px;
   font-weight: 500;
 }
-.barna__testimonials h5 {
+.nelsondjcr__testimonials h5 {
   margin: 0;
   padding: 0;
   font-size: 14px;
@@ -1539,7 +1539,7 @@ a:focus {
   font-family: var(--bff);
   margin-bottom: 36px;
 }
-.barna__testimonials .icon {
+.nelsondjcr__testimonials .icon {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -1549,7 +1549,7 @@ a:focus {
   align-items: center;
   justify-content: center;
 }
-.barna__testimonials .icon .svg {
+.nelsondjcr__testimonials .icon .svg {
   width: 40px;
   height: 40px;
   color: #e4e4e4;
@@ -1562,16 +1562,16 @@ a:focus {
   padding: 145px 0;
   background-color: #01011a;
 }
-#news .barna__title {
+#news .nelsondjcr__title {
   margin-bottom: 50px;
 }
 /*------------------------------------------------------------------*/
 /*	22) Blog (element)
 /*------------------------------------------------------------------*/
-.barna__blog .owl-stage-outer {
+.nelsondjcr__blog .owl-stage-outer {
   margin-bottom: 40px;
 }
-.barna__blog .owl-dots {
+.nelsondjcr__blog .owl-dots {
   margin-left: -7px;
   display: -webkit-flex;
   display: -moz-flex;
@@ -1583,7 +1583,7 @@ a:focus {
   justify-content: center;
   height: 15px;
 }
-.barna__blog .owl-dots .owl-dot span {
+.nelsondjcr__blog .owl-dots .owl-dot span {
   background-color: #b3b3b3;
   margin: 0 0 0 7px;
   display: block;
@@ -1592,27 +1592,27 @@ a:focus {
   border-radius: 50%;
   transition: all 0.3s ease;
 }
-.barna__blog .owl-dots .owl-dot.active span {
+.nelsondjcr__blog .owl-dots .owl-dot.active span {
   width: 15px;
   height: 15px;
 }
-.barna__blog .owl-dots .owl-dot.active span,
-.barna__blog .owl-dots .owl-dot:hover span {
+.nelsondjcr__blog .owl-dots .owl-dot.active span,
+.nelsondjcr__blog .owl-dots .owl-dot:hover span {
   background-color: var(--pc);
 }
-.barna__blog .item {
+.nelsondjcr__blog .item {
   border-radius: 10px;
   background-color: #292929;
   overflow: hidden;
   cursor: pointer;
 }
-.barna__blog .item_top {
+.nelsondjcr__blog .item_top {
   width: 100%;
   border-radius: 0 0 10px 10px;
   position: relative;
   overflow: hidden;
 }
-.barna__blog .item_top .main_image {
+.nelsondjcr__blog .item_top .main_image {
   position: absolute;
   top: 0;
   left: 0;
@@ -1623,14 +1623,14 @@ a:focus {
   background-position: center center;
   background-repeat: no-repeat;
 }
-.barna__blog .item_top img {
+.nelsondjcr__blog .item_top img {
   min-width: 100%;
   opacity: 0;
 }
-.barna__blog .item_bottom {
+.nelsondjcr__blog .item_bottom {
   width: 100%;
 }
-.barna__blog .item_title {
+.nelsondjcr__blog .item_title {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -1647,7 +1647,7 @@ a:focus {
   padding: 0 30px 21px;
   position: relative;
 }
-.barna__blog .item_title:after {
+.nelsondjcr__blog .item_title:after {
   position: absolute;
   left: 30px;
   right: 30px;
@@ -1657,7 +1657,7 @@ a:focus {
   height: 1px;
   content: "";
 }
-.barna__blog .category {
+.nelsondjcr__blog .category {
   display: block;
   text-decoration: none;
   font-size: 14px;
@@ -1674,19 +1674,19 @@ a:focus {
   text-transform: uppercase;
   margin-bottom: 21px;
 }
-.barna__blog .item_title h3 {
+.nelsondjcr__blog .item_title h3 {
   margin: 0;
   padding: 0;
   font-size: 18px;
   line-height: 32px;
   font-weight: 400;
 }
-.barna__blog .item_title h3 a {
+.nelsondjcr__blog .item_title h3 a {
   text-decoration: none;
   display: block;
   outline: none;
 }
-.barna__blog .item_meta {
+.nelsondjcr__blog .item_meta {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -1700,7 +1700,7 @@ a:focus {
   justify-content: space-between;
   padding: 15px 30px 30px;
 }
-.barna__blog .item_meta .main_image {
+.nelsondjcr__blog .item_meta .main_image {
   width: 33px;
   height: 33px;
   border: 3px solid var(--pc);
@@ -1711,7 +1711,7 @@ a:focus {
   border-radius: 50%;
   margin-right: 7px;
 }
-.barna__blog .author {
+.nelsondjcr__blog .author {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -1725,7 +1725,7 @@ a:focus {
   -ms-align-items: center;
   align-items: center;
 }
-.barna__blog .item_meta h5 {
+.nelsondjcr__blog .item_meta h5 {
   margin: 0;
   padding: 0;
   font-size: 16px;
@@ -1744,13 +1744,13 @@ a:focus {
   background-color: #141414;
   padding: 140px 0;
 }
-#contact .barna__title {
+#contact .nelsondjcr__title {
   margin-bottom: 50px;
 }
 /*------------------------------------------------------------------*/
 /*	24) Contact (element)
 /*------------------------------------------------------------------*/
-.barna__contact {
+.nelsondjcr__contact {
   width: 100%;
   padding: 20px 50px;
   border-radius: 20px;
@@ -1758,24 +1758,24 @@ a:focus {
   background-position: center center;
   background-repeat: no-repeat;
 }
-.barna__contact .item.nobg {
+.nelsondjcr__contact .item.nobg {
   background-color: transparent;
   border-radius: 0;
 }
-.barna__contact .item {
+.nelsondjcr__contact .item {
   margin-bottom: 30px;
   position: relative;
   overflow: hidden;
   background-color: #141414;
   border-radius: 25px;
 }
-.barna__contact input,
-.barna__contact textarea {
+.nelsondjcr__contact input,
+.nelsondjcr__contact textarea {
   background-color: transparent;
   position: relative;
   z-index: 3;
 }
-.barna__contact .placeholder {
+.nelsondjcr__contact .placeholder {
   position: absolute;
   padding: 0 20px;
   display: block;
@@ -1787,13 +1787,13 @@ a:focus {
   border-radius: 25px;
   transition: all 0.3s ease;
 }
-.barna__contact .active .placeholder {
+.nelsondjcr__contact .active .placeholder {
   left: 100%;
   transform: translateX(-100%);
   background-color: #000;
   margin-left: -6px;
 }
-.barna__contact .info {
+.nelsondjcr__contact .info {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -1807,7 +1807,7 @@ a:focus {
   align-items: flex-start;
   margin-bottom: 30px;
 }
-.barna__contact .info > * {
+.nelsondjcr__contact .info > * {
   padding: 10px 20px;
   background-color: #141414;
   border-radius: 25px;
@@ -1816,7 +1816,7 @@ a:focus {
   display: none;
   color: var(--pc);
 }
-.barna__contact .in {
+.nelsondjcr__contact .in {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -1824,11 +1824,11 @@ a:focus {
   display: flex;
   margin-left: -30px;
 }
-.barna__contact .left {
+.nelsondjcr__contact .left {
   width: 50%;
   padding-left: 30px;
 }
-.barna__contact .right {
+.nelsondjcr__contact .right {
   width: 50%;
   padding-left: 30px;
 }
@@ -1967,7 +1967,7 @@ a:focus {
 /*------------------------------------------------------------------*/
 /*	26) Section's Title
 /*------------------------------------------------------------------*/
-.barna__section_title {
+.nelsondjcr__section_title {
   top: 50%;
   position: absolute;
   z-index: 55;
@@ -1978,11 +1978,11 @@ a:focus {
   left: 10px;
   margin-top: 138px; /* 277(width)/2 */
 }
-.barna__section_title .title {
+.nelsondjcr__section_title .title {
   will-change: transform;
   transition: transform 5s cubic-bezier(0, 0, 0, 1) 0s;
 }
-.barna__section_title h3 {
+.nelsondjcr__section_title h3 {
   margin: 0;
   padding: 0;
   font-size: 40px;
@@ -1991,7 +1991,7 @@ a:focus {
   position: relative;
   z-index: 5;
 }
-.barna__section_title .svg {
+.nelsondjcr__section_title .svg {
   position: absolute;
   width: auto;
   height: auto;
@@ -2001,7 +2001,7 @@ a:focus {
   left: 0;
   right: 0;
 }
-.barna__section_title.right {
+.nelsondjcr__section_title.right {
   left: auto;
   right: 10px;
   transform: rotate(90deg);
@@ -2011,14 +2011,14 @@ a:focus {
 /*------------------------------------------------------------------*/
 /*	27) Mobile Header
 /*------------------------------------------------------------------*/
-.barna__mobile_header {
+.nelsondjcr__mobile_header {
   display: none;
   width: 100%;
   position: fixed;
   z-index: 555;
   background-color: #000;
 }
-.barna__mobile_header .header_top {
+.nelsondjcr__mobile_header .header_top {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -2036,23 +2036,23 @@ a:focus {
   padding: 20px;
   overflow: hidden;
 }
-.barna__mobile_header .header_top a {
+.nelsondjcr__mobile_header .header_top a {
   outline: none;
 }
-.barna__mobile_header .header_bottom {
+.nelsondjcr__mobile_header .header_bottom {
   display: none;
   padding: 25px 20px;
   border-top: 1px solid #292929;
 }
-.barna__mobile_header .header_bottom ul {
+.nelsondjcr__mobile_header .header_bottom ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-.barna__mobile_header .header_bottom li:last-child {
+.nelsondjcr__mobile_header .header_bottom li:last-child {
   margin-bottom: 0;
 }
-.barna__mobile_header .header_bottom li {
+.nelsondjcr__mobile_header .header_bottom li {
   margin: 0;
   padding: 0;
   margin-bottom: 10px;
@@ -2062,7 +2062,7 @@ a:focus {
   display: -o-flex;
   display: flex;
 }
-.barna__mobile_header .header_bottom a {
+.nelsondjcr__mobile_header .header_bottom a {
   text-decoration: none;
   position: relative;
   display: inline-block;
@@ -2070,7 +2070,7 @@ a:focus {
   line-height: 1.3;
   font-size: 18px;
 }
-.barna__mobile_header .header_bottom a:after {
+.nelsondjcr__mobile_header .header_bottom a:after {
   left: 6px;
   bottom: -1px;
   content: "";
@@ -2081,8 +2081,8 @@ a:focus {
   margin-right: 6px;
   transition: all 0.3s ease;
 }
-.barna__mobile_header .header_bottom li.current a:after,
-.barna__mobile_header .header_bottom a:hover:after {
+.nelsondjcr__mobile_header .header_bottom li.current a:after,
+.nelsondjcr__mobile_header .header_bottom a:hover:after {
   right: -8px;
   margin-right: 0;
 }
@@ -2091,25 +2091,25 @@ a:focus {
 /*	28) Responsive
 /*------------------------------------------------------------------*/
 @media (max-width: 1400px) {
-  .barna__hero .my__nav .next {
+  .nelsondjcr__hero .my__nav .next {
     right: 20px;
   }
-  .barna__hero .my__nav .prev {
+  .nelsondjcr__hero .my__nav .prev {
     left: 20px;
   }
 }
 @media (max-width: 1040px) {
-  .barna__section_title {
+  .nelsondjcr__section_title {
     display: none;
   }
   #header {
     display: none;
   }
-  .barna__mobile_header {
+  .nelsondjcr__mobile_header {
     display: block;
   }
 
-  .barna__hero .my__nav {
+  .nelsondjcr__hero .my__nav {
     position: absolute;
     right: 20px;
     top: 150px;
@@ -2120,76 +2120,76 @@ a:focus {
     display: flex;
     column-gap: 10px;
   }
-  .barna__hero .my__nav a {
+  .nelsondjcr__hero .my__nav a {
     position: relative;
     left: auto !important;
     right: auto !important;
   }
 
-  .barna__hero .item h3 {
+  .nelsondjcr__hero .item h3 {
     font-size: 50px;
     line-height: 1.1;
   }
-  .barna__hero .item h5 {
+  .nelsondjcr__hero .item h5 {
     font-size: 40px;
   }
-  .barna__counters li,
-  .barna__services li,
+  .nelsondjcr__counters li,
+  .nelsondjcr__services li,
   #footer .widgets .list_item,
-  .barna__portfolio .list li {
+  .nelsondjcr__portfolio .list li {
     width: 50%;
   }
-  .barna__services li {
+  .nelsondjcr__services li {
     padding-left: 50px;
   }
-  .barna__services ul {
+  .nelsondjcr__services ul {
     margin-left: -50px;
   }
-  .barna__contact {
+  .nelsondjcr__contact {
     padding: 20px;
   }
-  .barna__contact .item {
+  .nelsondjcr__contact .item {
     margin-bottom: 20px;
   }
-  .barna__contact .left,
-  .barna__contact .right {
+  .nelsondjcr__contact .left,
+  .nelsondjcr__contact .right {
     padding-left: 20px;
   }
-  .barna__contact .in {
+  .nelsondjcr__contact .in {
     margin-left: -20px;
   }
   textarea {
     height: 120px;
   }
-  .barna__section_title h3 {
+  .nelsondjcr__section_title h3 {
     line-height: 20px;
     font-size: 30px;
   }
-  .barna__resume_list .left {
+  .nelsondjcr__resume_list .left {
     width: 40%;
   }
-  .barna__resume_list .right {
+  .nelsondjcr__resume_list .right {
     width: 60%;
   }
-  .barna__resume_list .right li {
+  .nelsondjcr__resume_list .right li {
     width: 100%;
   }
 }
 @media (max-width: 768px) {
-  .barna__about .in {
+  .nelsondjcr__about .in {
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
     -ms-flex-direction: column;
     -o-flex-direction: column;
     flex-direction: column;
   }
-  .barna__partners {
+  .nelsondjcr__partners {
     transform: translateY(-100px);
   }
-  .barna__partners li {
+  .nelsondjcr__partners li {
     width: 50%;
   }
-  .barna__partners a {
+  .nelsondjcr__partners a {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -2199,11 +2199,11 @@ a:focus {
     align-items: center;
     justify-content: center;
   }
-  .barna__about .right {
+  .nelsondjcr__about .right {
     width: 100%;
     padding-left: 0;
   }
-  .barna__about .left {
+  .nelsondjcr__about .left {
     width: auto;
     max-width: 100%;
     margin-bottom: 50px;
@@ -2217,33 +2217,33 @@ a:focus {
     width: 100%;
     padding-left: 0;
   }
-  .barna__resume_list .item_wrapper {
+  .nelsondjcr__resume_list .item_wrapper {
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
     -ms-flex-direction: column;
     -o-flex-direction: column;
     flex-direction: column;
   }
-  .barna__resume_list .left {
+  .nelsondjcr__resume_list .left {
     width: 100%;
     margin-bottom: 40px;
   }
-  .barna__resume_list .right,
-  .barna__counters li,
-  .barna__services li,
+  .nelsondjcr__resume_list .right,
+  .nelsondjcr__counters li,
+  .nelsondjcr__services li,
   #footer .widgets .list_item,
-  .barna__portfolio .list li,
-  .barna__contact .left,
-  .barna__contact .right {
+  .nelsondjcr__portfolio .list li,
+  .nelsondjcr__contact .left,
+  .nelsondjcr__contact .right {
     width: 100%;
   }
-  .barna__contact .in {
+  .nelsondjcr__contact .in {
     flex-wrap: wrap;
   }
   .my__container {
     padding: 0;
   }
-  .barna__testimonials .my__dots {
+  .nelsondjcr__testimonials .my__dots {
     margin-top: 30px;
     position: relative;
     width: 100%;
@@ -2259,18 +2259,18 @@ a:focus {
     flex-direction: row;
     justify-content: space-between;
   }
-  .barna__testimonials .my__dots .right,
-  .barna__testimonials .my__dots .left {
+  .nelsondjcr__testimonials .my__dots .right,
+  .nelsondjcr__testimonials .my__dots .left {
     top: auto;
     transform: none;
     position: relative;
   }
 }
 @media (max-width: 480px) {
-  .barna__about .list li {
+  .nelsondjcr__about .list li {
     width: 100%;
   }
-  .barna__partners li {
+  .nelsondjcr__partners li {
     width: 100%;
   }
   #footer .widgets .item {
@@ -2279,29 +2279,29 @@ a:focus {
 }
 
 /* Modalbox */
-.barna_modalbox,
-.barna_modalbox * {
+.nelsondjcr_modalbox,
+.nelsondjcr_modalbox * {
   box-sizing: border-box;
 }
-.barna_modalbox .modal_content {
+.nelsondjcr_modalbox .modal_content {
   scrollbar-width: thin;
   scrollbar-color: #999 #fff;
 }
-.barna_modalbox .modal_content::-webkit-scrollbar {
+.nelsondjcr_modalbox .modal_content::-webkit-scrollbar {
   width: 11px;
 }
-.barna_modalbox .modal_content:-webkit-scrollbar-track {
+.nelsondjcr_modalbox .modal_content:-webkit-scrollbar-track {
   background: #fff;
 }
-.barna_modalbox .modal_content::-webkit-scrollbar-thumb {
+.nelsondjcr_modalbox .modal_content::-webkit-scrollbar-thumb {
   background-color: #999;
   border-radius: 6px;
   border: 3px solid #fff;
 }
-.barna_modalbox .fixed_title:empty {
+.nelsondjcr_modalbox .fixed_title:empty {
   display: none;
 }
-.barna_modalbox .fixed_title {
+.nelsondjcr_modalbox .fixed_title {
   margin: 0;
   font-family: "Poppins";
   font-size: 18px;
@@ -2317,14 +2317,14 @@ a:focus {
   border-radius: 0 10px 10px 0;
   text-transform: capitalize;
 }
-.barna_modalbox .fixed_title span {
+.nelsondjcr_modalbox .fixed_title span {
   color: #7e7e7e;
   font-family: monospace;
   font-size: 14px;
   display: block;
   border-bottom: 1px solid #bfbfbf;
 }
-.barna_modalbox {
+.nelsondjcr_modalbox {
   position: fixed;
   top: 0px;
   left: 0px;
@@ -2341,14 +2341,14 @@ a:focus {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.barna_modalbox.opened {
+.nelsondjcr_modalbox.opened {
   opacity: 1;
   visibility: visible;
 }
-.barna_modalbox .container {
+.nelsondjcr_modalbox .container {
   height: 100vh;
 }
-.barna_modalbox .box_inner {
+.nelsondjcr_modalbox .box_inner {
   position: absolute;
   top: 70px;
   bottom: 70px;
@@ -2368,27 +2368,27 @@ a:focus {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.barna_modalbox.opened .box_inner {
+.nelsondjcr_modalbox.opened .box_inner {
   opacity: 1;
   visibility: visible;
   margin-top: 0px;
 }
-.barna_modalbox .close {
+.nelsondjcr_modalbox .close {
   position: fixed;
   left: 100%;
   top: 0px;
   margin-left: 40px;
   z-index: 111111;
 }
-.barna_modalbox .close a {
+.nelsondjcr_modalbox .close a {
   text-decoration: none;
   color: #fff;
 }
-.barna_modalbox .close .svg {
+.nelsondjcr_modalbox .close .svg {
   width: 50px;
   height: 50px;
 }
-.barna_modalbox .modal_content {
+.nelsondjcr_modalbox .modal_content {
   position: relative;
   width: 100%;
   height: 100%;
@@ -2404,18 +2404,18 @@ a:focus {
   z-index: -11;
   display: none;
 }
-.barna_modalbox .image {
+.nelsondjcr_modalbox .image {
   position: relative;
   max-height: 450px;
   margin-bottom: 50px;
   overflow: hidden;
 }
-.barna_modalbox .image img {
+.nelsondjcr_modalbox .image img {
   position: relative;
   min-width: 100%;
   opacity: 0;
 }
-.barna_modalbox .image .main {
+.nelsondjcr_modalbox .image .main {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -2425,33 +2425,33 @@ a:focus {
   background-position: center;
   background-size: cover;
 }
-.barna_modalbox h3 {
+.nelsondjcr_modalbox h3 {
   font-size: 23px;
   font-weight: 700;
   margin-bottom: 30px;
 }
-.barna_modalbox p {
+.nelsondjcr_modalbox p {
   margin-bottom: 30px;
   text-align: justify;
 }
-.barna_modalbox .in_list {
+.nelsondjcr_modalbox .in_list {
   width: 100%;
   float: left;
   margin-bottom: 30px;
   padding-left: 20px;
 }
-.barna_modalbox .in_list ul {
+.nelsondjcr_modalbox .in_list ul {
   margin: 0px;
   list-style-type: none;
 }
-.barna_modalbox .in_list ul li {
+.nelsondjcr_modalbox .in_list ul li {
   margin: 0px 0px 15px 0px;
   width: 100%;
   float: left;
   position: relative;
   padding-left: 20px;
 }
-.barna_modalbox .in_list ul li:before {
+.nelsondjcr_modalbox .in_list ul li:before {
   position: absolute;
   content: "";
   width: 5px;
@@ -2461,24 +2461,24 @@ a:focus {
   left: 0px;
   top: 13px;
 }
-.barna_modalbox .in_list ul li:last-child {
+.nelsondjcr_modalbox .in_list ul li:last-child {
   margin-bottom: 0px;
 }
-.barna_modalbox .in_list ul li p {
+.nelsondjcr_modalbox .in_list ul li p {
   margin-bottom: 0px;
 }
-.barna_prevnext.disabled {
+.nelsondjcr_prevnext.disabled {
   opacity: 0.5;
 }
-.barna_prevnext .next,
-.barna_prevnext .prev {
+.nelsondjcr_prevnext .next,
+.nelsondjcr_prevnext .prev {
   float: right;
   position: relative;
 }
-.barna_prevnext .prev {
+.nelsondjcr_prevnext .prev {
   margin-right: 20px;
 }
-.barna_prevnext a {
+.nelsondjcr_prevnext a {
   text-decoration: none;
   display: block;
   font-size: 18px;
@@ -2494,17 +2494,17 @@ a:focus {
   padding-bottom: 11px;
   overflow: hidden;
 }
-.barna_prevnext .prev a {
+.nelsondjcr_prevnext .prev a {
   text-align: left;
 }
-.barna_prevnext .next a {
+.nelsondjcr_prevnext .next a {
   text-align: right;
 }
-.barna_prevnext a:hover {
+.nelsondjcr_prevnext a:hover {
   color: var(--pc);
   border-color: var(--pc);
 }
-.barna_prevnext a:after {
+.nelsondjcr_prevnext a:after {
   width: 100%;
   bottom: 0;
   content: "";
@@ -2513,7 +2513,7 @@ a:focus {
   background-color: #7e7e7e;
   transition: all 0.3s 0.3s ease;
 }
-.barna_prevnext a:before {
+.nelsondjcr_prevnext a:before {
   margin: 0;
   padding: 0;
   width: 0;
@@ -2526,69 +2526,69 @@ a:focus {
   transition: all 0.3s ease;
   opacity: 0;
 }
-.barna_prevnext a:hover:before {
+.nelsondjcr_prevnext a:hover:before {
   width: 100%;
   opacity: 1;
   transition: all 0.3s 0.3s ease;
 }
-.barna_prevnext a:hover:after {
+.nelsondjcr_prevnext a:hover:after {
   width: 0;
   opacity: 0;
   transition: all 0.3s ease;
 }
-.barna_prevnext .next a:after {
+.nelsondjcr_prevnext .next a:after {
   right: 0;
 }
-.barna_prevnext .next a:before {
+.nelsondjcr_prevnext .next a:before {
   left: 0;
 }
-.barna_prevnext .prev a:after {
+.nelsondjcr_prevnext .prev a:after {
   left: 0;
 }
-.barna_prevnext .prev a:before {
+.nelsondjcr_prevnext .prev a:before {
   right: 0;
 }
-.barna_modalbox .modal_content::-webkit-scrollbar {
+.nelsondjcr_modalbox .modal_content::-webkit-scrollbar {
   width: 11px;
 }
-.barna_modalbox .modal_content {
+.nelsondjcr_modalbox .modal_content {
   scrollbar-width: thin;
   scrollbar-color: #333 #111;
 }
-.barna_modalbox .modal_content::-webkit-scrollbar-track {
+.nelsondjcr_modalbox .modal_content::-webkit-scrollbar-track {
   background: #111;
 }
-.barna_modalbox .modal_content::-webkit-scrollbar-thumb {
+.nelsondjcr_modalbox .modal_content::-webkit-scrollbar-thumb {
   background-color: #333;
   border-radius: 6px;
   border: 3px solid #111;
 }
 @media (max-width: 1200px) {
-  .barna_modalbox.opened .box_inner {
+  .nelsondjcr_modalbox.opened .box_inner {
     width: 600px;
   }
-  .barna_modalbox .close {
+  .nelsondjcr_modalbox .close {
     margin-left: 20px;
   }
-  .barna_modalbox .modal_content {
+  .nelsondjcr_modalbox .modal_content {
     padding: 30px;
   }
 }
 @media (max-width: 768px) {
-  .barna__hero .my__nav a {
+  .nelsondjcr__hero .my__nav a {
     display: none;
   }
-  .barna__title h3 {
+  .nelsondjcr__title h3 {
     font-size: 30px;
   }
-  .barna_modalbox .close {
+  .nelsondjcr_modalbox .close {
     background-color: #111319;
   }
-  .barna_modalbox.opened .box_inner {
+  .nelsondjcr_modalbox.opened .box_inner {
     width: 500px;
     width: 88vw;
   }
-  .barna_modalbox .close a {
+  .nelsondjcr_modalbox .close a {
     width: 30px;
     height: 30px;
     border-radius: 3px;
@@ -2596,7 +2596,7 @@ a:focus {
     position: relative;
     background-color: #000;
   }
-  .barna_modalbox .close a:after {
+  .nelsondjcr_modalbox .close a:after {
     content: "";
     position: absolute;
     width: 20px;
@@ -2606,7 +2606,7 @@ a:focus {
     top: 14px;
     left: 5px;
   }
-  .barna_modalbox .close a:before {
+  .nelsondjcr_modalbox .close a:before {
     content: "";
     position: absolute;
     width: 20px;
@@ -2616,10 +2616,10 @@ a:focus {
     top: 14px;
     left: 5px;
   }
-  .barna_modalbox .close .svg {
+  .nelsondjcr_modalbox .close .svg {
     display: none;
   }
-  .barna_modalbox .close {
+  .nelsondjcr_modalbox .close {
     left: auto;
     right: 20px;
     top: 20px;
@@ -2650,7 +2650,7 @@ a:focus {
   #about {
     padding-bottom: 100px;
   }
-  .barna__resume_list .item h3 {
+  .nelsondjcr__resume_list .item h3 {
     font-size: 24px;
   }
 }

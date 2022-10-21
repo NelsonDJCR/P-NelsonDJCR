@@ -131,8 +131,8 @@
 			// added by ib-themes
 			if($parent.parent().parent().hasClass('header_bottom')){
 				setTimeout(function(){
-					$('.barna__mobile_header .header_bottom').slideUp();
-					$('.barna__mobile_header .hamburger').removeClass('is-active');
+					$('.nelsondjcr__mobile_header .header_bottom').slideUp();
+					$('.nelsondjcr__mobile_header .hamburger').removeClass('is-active');
 				},100);
 			}
 			if(!$parent.hasClass(self.config.currentClass)) {
